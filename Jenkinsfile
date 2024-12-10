@@ -6,9 +6,9 @@ pipeline {
             steps {
                 script {
                     // Build your Docker image
-                    bat 'docker build -t my-kube1 .'
-                     bat 'docker tag my-kube1:latest srikarganji/my-kube1:latest'
-                      bat 'docker push srikarganji/my-kube1:latest'
+                    bat 'docker build -t my-kube2 .'
+                     bat 'docker tag my-kube2:latest srikarganji/my-kube2:latest'
+                      bat 'docker push srikarganji/my-kube2:latest'
                 }
             }
         }
